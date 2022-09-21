@@ -5,6 +5,10 @@
 
 package main
 
+import (
+	"fmt"
+)
+
 // HelloWorld prints the message "Hello world!" (followed by a newline)
 // parameter(s): none
 // return value(s): none
