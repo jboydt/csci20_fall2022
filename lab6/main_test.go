@@ -37,6 +37,14 @@ func TestEstimateAgeZero(t *testing.T) {
 	}
 }
 
+func TestEstimateAgeOne(t *testing.T) {
+	age := EstimateAge(2021)
+	expected := 1
+	if age != expected {
+		t.Errorf("Expected age to be %d, got %d\n", expected, age)
+	}
+}
+
 func TestComputeAverageZeroPercent(t *testing.T) {
 	average := ComputeAverage(0.0, 1.0)
 	averageRounded := math.Floor(average*100) / 100
