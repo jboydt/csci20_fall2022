@@ -57,48 +57,6 @@ func RockPaperScissors(player string) int {
 }
 
 // [INCOMPLETE]
-// Helper function. Check to see if a beetle has all of its required parts:
-// 1 body, 1 head, 2 antennae, 2 eyes, 6 legs, 1 tail
-//
-// Return true if the beetle is complete, otherwise return false.
-func CompleteBeetle(body, head, antennas, eyes, legs, tail int) bool {
-
-}
-
-// [INCOMPLETE]
-// Helper function. Handle the logic of one roll of the "dice" for the beetle
-// game. The parameters include all of the beetle parts, and the name of the
-// player (to personalize messages).
-//
-// Rolls:
-// 1 -> body
-// 2 -> head
-// 3 -> leg
-// 4 -> eye
-// 5 -> antenna
-// 6 -> tail
-func RollBeetle(body *int, head *int, antennas *int, eyes *int, legs *int, tail *int, name string) {
-
-}
-
-// [INCOMPLETE]
-// Helper function. Display the current state (in terms of current/required parts).
-// The name parameter is the player's name, which can be used to personalize messages.
-func ShowBeetle(body, head, antennas, eyes, legs, tail int, name string) {
-
-}
-
-// [INCOMPLETE]
-// Beetle game. Uses helper functions for displaying the state of the
-// beetles (player and computer opponent), rolling the "dice" to play the game,
-// and checking to see if either play has completed their beetle.
-//
-// Returns -1 if the computer wins and 1 if the player wins.
-func Beetle(player string) int {
-
-}
-
-// [INCOMPLETE]
 // main contains the program loop with main menu, and manages status variables
 // for plays/wins/losses/etc. for each game.
 func main() {
